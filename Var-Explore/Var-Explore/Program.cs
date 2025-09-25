@@ -19,6 +19,14 @@
             heroFullName = heroFirstName + " " + heroLastName;
 
             Console.WriteLine("Here comes the hero! Put your hands together for " + heroFullName);
+
+            villainName = heroFirstName + "'s evil future self";
+            minion1Name = "Gavin";
+            minion2Name = "Devin";
+
+            Console.WriteLine(heroFullName + "'s nemesis! " + villainTitle + "!" + " (" + villainName + ")");
+            Console.WriteLine("But this isn't a fair fight! " + heroFirstName + " is also up against two of " + villainTitle + "'s " + minionTitle + "s! " + minion1Name + " and " + minion2Name + "!");
+            Console.WriteLine("They're not even uninionized!!!");
         }
     }
 }
