@@ -91,6 +91,24 @@
             Console.WriteLine("But " + heroFirstName + " is based, so he heals");
             heroHp++;
             Console.WriteLine(heroFullName + " has " + heroHp + " health!");
+            Console.WriteLine();
+
+            //moar killing
+            Console.WriteLine("Anyway, back to killing each other.");
+            Console.WriteLine(heroFirstName + "'s HP: " + heroHp);
+            Console.WriteLine("E. " + heroFirstName + "'s HP: " + bossHp);
+            Console.WriteLine(villianName + " the " + villianTitle + " attacks " + heroFullName);
+            Console.WriteLine(villianName + " the " + villianTitle + " deals " + bossStr + " damage!");
+            //health recalculation
+            heroHp = heroHp - bossStr;
+            Console.WriteLine(heroFullName + " now has " + heroHp + " health!");
+            //Hero turn to attack!
+            Console.WriteLine(heroFullName + " attacks each villian for " + heroStr + " damage!");
+            //do math
+            bossHp -= heroStr;
+            Console.WriteLine(villianName + " the " + villianTitle + " now has " + bossHp + " health!");
+            Console.WriteLine("Good job, " + heroFirstName + ", you killed them. Now you're all done with your homework.");
+
 
         }
     }
